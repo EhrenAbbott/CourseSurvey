@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey</title>
+</head>
+<body>
+    <div id="titlediv">
+        <h1 id="title">Survey</h1> 
+        <div id="firstdiv">
+            <p id="description">Please tell us more about your learning goals and experiences so we can improve our courses</p>
+        </div>
+    </div> 
+   
+        <section>
+        <form action="#" method="post" id="survey-form"> 
+            <fieldset id="field1"> 
+                <label id="name-label" for="name"> Please enter your name:<input placeholder=" name" required id="name" type="text"></label> 
+                <label id="email-label" for="email"> Please enter your email:<input placeholder=" email" required id="email" type="email"></label>
+                <label id="number-label" for="number"> Please enter your average daily study hours:<input type="number" placeholder=" number" min="10" max="100"  required id="number"></label>
+            </fieldset> 
+            <fieldset id="field2"> 
+                <label id="select-label"> How did you hear about us?
+                    <select id="dropdown"> 
+                        <option id="opt1">(Select one)</option>
+                        <option id="opt2">From a friend</option>
+                        <option id="opt3">Radio ad</option>
+                        <option id="opt4">A divine vision</option>
+                    </select> 
+                </label>
+            </fieldset> 
+            <fieldset id="field3">
+                <p>Which of the following best describes your goals?</p>
+                <label for="start"><input id="start" name="goals" value="start" type="radio"> Start learning how to code
+                <label for="improve"><input id="improve" name="goals" value="improve" type="radio"> Improve upon my skills
+                <label for="specfic"><input id="specfic" name="goals" value="specfic" type="radio"> Learn a speciifc skill
+            </fieldset> 
+            <fieldset id="field4">
+                <p>Which of the following topics are you interested in?</p>
+                <label id="css-label"><input id="css" value="css" type="checkbox"> CSS</label>
+                <label id="html-label"><input id="html" value="html" type="checkbox"> HTML</label> 
+                <label id="python-label"><input id="python" value="python" type="checkbox"> Python</label>
+                <label id="javascript-label"><input id="javascript" value="javascript" type="checkbox"> Javascript</label>
+            </fieldset>  
+            <fieldset id="field5">  
+                <p>Please feel free to leave any additional comments</p>
+                <textarea placeholder="Your comments here..."></textarea>
+            </fieldset>  
+            <fieldset id="field6">
+                <input id="submit" type="submit"> 
+            </fieldset>
+        </form> 
+    </section>
+
+</body>
+</html>

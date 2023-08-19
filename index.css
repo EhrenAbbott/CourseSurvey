@@ -1,0 +1,103 @@
+fieldset { 
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: auto auto;
+    margin-top: 10px;
+    max-width: 70%; 
+    opacity: 90%;
+} 
+
+body { 
+    color: unset; 
+    font-family: sans-serif;
+    background-image: URL(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+} 
+
+h1 { 
+    text-align: center;
+    background-color: lightblue; 
+}   
+
+input { 
+    border: none; 
+    border-radius: 5px;
+}
+
+#titlediv { 
+    border: 5px solid pink;
+    background-color: lightblue;
+}
+
+#field1 { 
+    font-size: 16px;
+}
+
+#field1 input { 
+    margin-bottom: 15px;
+    display: block;
+    width: 95%;
+} 
+
+#field1 label { 
+    display: block; 
+    font-size: 17px;
+}
+
+#field3 input { 
+    margin-left: 25px;
+    display: inline-block;
+} 
+
+#field3 label { 
+    display: block
+}
+
+textarea { 
+    width: 100%
+} 
+
+#field6 { 
+    text-align: center;
+}
+
+#submit { 
+    border-radius: 10px;
+    border-color: pink; 
+    border-style: solid;
+}
+
+#field4 p { 
+    margin-bottom: 1px;
+}
+
+#field3 p { 
+    margin-bottom: 1px;
+} 
+
+p { 
+    font-size: 17px;
+}
+
+#select-label { 
+    font-size: 17px;;
+}
+
+#firstdiv { 
+    background-color: lightgray;
+    margin-top: 0px;
+} 
+
+#description { 
+    text-align: center;
+}
+
+textarea { 
+    margin-top: -15px; 
+    border: none; 
+    border-radius: 5px;
+} 
+
+
+
+
